@@ -76,7 +76,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 16 / 20;
   letter-spacing: 0.03em;
   color: #fff;
   padding: 18px 30px;
@@ -92,7 +92,7 @@ ul {
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
-  line-height: 0.82352941;
+  line-height: 14 / 17;
   color: #fff;
   padding: 12px 14px;
   text-decoration: none;
@@ -163,9 +163,8 @@ ul {
   position: absolute;
   left: -16px;
 }
-.screen-1 {
-  padding: 180px 0 70px;
-  background: #f9f6f1;
+.slider__item {
+  padding: 0px 5px 0px 5px;
 }
 .slider__body {
   display: flex;
@@ -176,13 +175,13 @@ ul {
 .slider__text__tittle {
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.23333333;
+  line-height: 37 / 30;
   letter-spacing: 0.02em;
 }
 .slider__text__sale {
   font-size: 55px;
   font-weight: 700;
-  line-height: 1.21818182;
+  line-height: 67 / 55;
   margin-top: 35px;
   letter-spacing: 0.04em;
 }
@@ -200,7 +199,7 @@ ul {
   right: 0;
   font-size: 24px;
   font-weight: 700;
-  line-height: 0.82758621;
+  line-height: 24 / 29;
   letter-spacing: 0.05em;
   text-decoration: line-through;
 }
@@ -210,7 +209,7 @@ ul {
   top: 40px;
   font-size: 42px;
   font-weight: 700;
-  line-height: 0.82352941;
+  line-height: 42 / 51;
   letter-spacing: 0.02em;
   color: #d84033;
 }
@@ -234,6 +233,10 @@ ul {
   border: none;
   padding: 0;
 }
+.screen-1 {
+  padding: 180px 0 70px;
+  background: #f9f6f1;
+}
 .screen-2 {
   width: 100%;
   background: #212121;
@@ -243,7 +246,7 @@ ul {
 }
 .screen-2__tittle {
   font-size: 30px;
-  line-height: 0.81081081;
+  line-height: 30 / 37;
   letter-spacing: 0.02em;
   font-weight: 400;
   text-transform: uppercase;
@@ -254,7 +257,7 @@ ul {
 }
 .screen-2__sublittle {
   font-size: 21px;
-  line-height: 0.80769231;
+  line-height: 21 / 26;
   font-weight: 300;
 }
 .screen-3 {
@@ -272,7 +275,7 @@ ul {
 }
 .screen-3__head__men-tittle {
   font-size: 24px;
-  line-height: 0.82758621;
+  line-height: 24 / 29;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
@@ -281,28 +284,28 @@ ul {
 }
 .screen-3__head__men-subtittle {
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 16 / 20;
   margin-bottom: 40px;
 }
-.screen-3__head__woomen {
+.screen-3__head__women {
   display: flex;
   padding-top: 60px;
   padding-left: 35px;
   background: #F4F4F4;
   width: 50%;
 }
-.screen-3__head__woomen__tittle {
+.screen-3__head__women-tittle {
   font-size: 24px;
-  line-height: 0.82758621;
+  line-height: 24 / 29;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
-.screen-3__head__woomen__tittle span {
+.screen-3__head__women-tittle span {
   font-weight: 500;
 }
-.screen-3__head__woomen__subtittle {
+.screen-3__head__women__subtittle {
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 16 / 20;
   margin-bottom: 40px;
 }
 .screen-3__body {
@@ -324,7 +327,7 @@ ul {
   left: 30px;
   bottom: 25px;
   font-size: 21px;
-  line-height: 0.80769231;
+  line-height: 21 / 26;
   letter-spacing: 0.03em;
   color: #000;
 }
@@ -342,7 +345,7 @@ ul {
   left: 30px;
   bottom: 25px;
   font-size: 21px;
-  line-height: 0.80769231;
+  line-height: 21 / 26;
   letter-spacing: 0.03em;
   color: #000;
 }
@@ -352,7 +355,7 @@ ul {
 }
 .new-model__tittle {
   font-size: 36px;
-  line-height: 0.81818182;
+  line-height: 36 / 44;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -442,14 +445,14 @@ ul {
 .model-item__name {
   font-size: 14px;
   font-weight: 600;
-  line-height: 0.82352941;
+  line-height: 14 / 17;
   color: #000;
   width: 112px;
   margin: 0px auto 15px;
 }
 .model-item__cost {
   font-size: 18px;
-  line-height: 0.81818182;
+  line-height: 18 / 22;
   font-weight: 700;
   color: #D7B399;
 }
@@ -461,7 +464,7 @@ ul {
 }
 .screen-5__tittle {
   font-size: 30px;
-  line-height: 0.81081081;
+  line-height: 30 / 37;
   letter-spacing: 0.02em;
   color: #fff;
   padding-right: 60px;

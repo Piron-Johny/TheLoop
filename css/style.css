@@ -349,7 +349,8 @@ ul {
   letter-spacing: 0.03em;
   color: #000;
 }
-.screen-4 {
+.screen-4,
+.screen-6 {
   padding: 75px 0px 150px;
   text-align: center;
 }
@@ -476,4 +477,44 @@ ul {
   padding: 12px 20px;
   border: none;
   margin-right: 30px;
+}
+.footer {
+  width: 100%;
+  background: #212121;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 79px 0px ;
+  font-weight: 400;
+  line-height: 22 / 14;
+}
+.fot-tittle {
+  font-size: 10px;
+  font-weight: 700;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  display: flex;
+  flex-direction: column;
+}
+.col-1 {
+  width: 200px;
+  margin-left: 225px;
+}
+.col-2 {
+  width: 115px;
+  margin-left: 85px;
+}
+.col-3 {
+  width: 125px;
+  margin-left: 75px;
+}
+.col-4 {
+  width: 135px;
+  margin-left: 80px;
+}
+.col-5 {
+  width: 70px;
 }

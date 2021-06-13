@@ -2,22 +2,35 @@
 
 // FOOTER ======================== FOOTER
 .footer {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   width: 100%;
   background: #212121;
   color: @secondary;
-  padding: 79px 0px ;
+  padding: 79px 0px 0px 0px;
   font-weight: 400;
   line-height: 14 / 22;
   &__wrapper {
     display: flex;
     justify-content: center;
   }
+  & ul li a {
+    color: @secondary;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 50px;
+    color: #212121;
+    padding: 30px 0px 23px;
+    font-size: 14px;
+  }
 }
 .fot-tittle {
   font-size: 10px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .fot-flex {
   display: flex;
@@ -38,12 +51,12 @@
   margin-right: 225px;
 }
 .col-2 {
-  width: 115px;
+  width: 120px;
   margin-right: 85px;
 }
 .col-3 {
-  width: 125px;
-  margin-right: 75px;
+  width: 138px;
+  margin-right: 60px;
 }
 .col-4 {
   width: 135px;
@@ -51,4 +64,7 @@
 }
 .col-5 {
   width: 70px;
+}
+.soc-icon {
+  margin-right: 10px;
 }

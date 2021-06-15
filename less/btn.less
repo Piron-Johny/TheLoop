@@ -1,0 +1,44 @@
+// main: ../../style.less
+
+// BTN ============================= BTN
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16 / 20;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 18px 30px;
+  text-decoration: none;
+  background: @primary;
+  border: 1px solid @primary;
+  transition: background 0.1s linear;
+  &:hover {
+    background: darken(@primary, 15%);
+  }
+}
+.btn-m {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14 / 17;
+  color: #fff;
+  padding: 12px 14px;
+  text-decoration: none;
+  background: #d7b399;
+  border: none;
+  transition: background 0.1s linear;
+  &:hover {
+    background: darken(@primary, 15%);
+  }
+}
+.btn-s {
+  display: inline-block;
+  padding: 6px 30px;
+  text-decoration: none;
+  background: @primary;
+  border: 1px solid @primary;
+  &:hover {
+    background: darken(@primary, 15%);
+  }
+}

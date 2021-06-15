@@ -1,0 +1,77 @@
+// main: ../style.less
+
+// SLIDER ========================== SLIDER
+.slider {
+  &__item {
+    padding: 0px 5px 0px 5px;
+  }
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 40%;
+    margin-bottom: 130px;
+  }
+  &__text {
+    &__tittle {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 37 / 30;
+      letter-spacing: 0.02em;
+    }
+    &__sale {
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 67 / 55;
+      margin-top: 35px;
+      letter-spacing: 0.04em;
+    }
+    &__btn {
+      margin-top: 50px;
+    }
+  }
+  &__image {
+    position: relative;
+    max-width: 556px;
+    height: auto;
+    &__cost {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24 / 29;
+      letter-spacing: 0.05em;
+      text-decoration: line-through;
+    }
+    &__cost-salle {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 42 / 51;
+      letter-spacing: 0.02em;
+      color: #d84033;
+    }
+  }
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  & li {
+    width: 40px;
+    height: 7px;
+    background: #cecece;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  & li.slick-active {
+    background: @primary;
+  }
+  & button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+  }
+}

@@ -2,48 +2,55 @@
 
 // FOOTER ======================== FOOTER
 .footer {
+  &__wrapper {
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
   width: 100%;
   background: #212121;
-  color: @secondary;
-  display: flex;
-  justify-content: center;
+  color: #CBCFD4;
   padding: 79px 0px;
   font-weight: 400;
   line-height: 22 / 14;
+  & ul {
+    padding: 0;
+    & li {
+      list-style: none;
+      & a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.2 liner;
+        &:hover {
+          color: #D7B399;
+          text-decoration: underline;
+        }
+      }
+    }
+  } 
 }
-.foot-flex {
+.col-2__items__tittle {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__col-1 {
+  width: 200px;
+  flex: 0 0 20%;
+}
+.footer__col-2 {
+  display: flex;
+  flex: 80%;
+  justify-content: space-between;
+  margin-left: 225px;
+}
+.col-2__items {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
-.fot-tittle {
-  font-size: 10px;
-  font-weight: 700;
-}
-.col-1,
-.col-2,
-.col-3,
-.col-4 {
-  display: flex;
-  flex-direction: column;
-}
-
-.col-1 {
-  width: 200px;
-  margin-left: 225px;
-}
-.col-2 {
-  width: 115px;
-  margin-left: 85px;
-}
-.col-3 {
-  width: 125px;
-  margin-left: 75px;
-}
-.col-4 {
-  width: 135px;
-  margin-left: 80px;
-  & li img {
-    margin-right: 5px;
-  }
+.soc-icon {
+  margin-right: 5px;
 }

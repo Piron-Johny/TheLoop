@@ -1,1 +1,1 @@
-# TheLoop
+# TheLoop. Pet-project 1
